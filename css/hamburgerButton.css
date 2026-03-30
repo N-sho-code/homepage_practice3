@@ -1,10 +1,3 @@
-body{
-    background-color: aqua;
-}
-h1{
-    color: black;
-}
-
 .burger {
     --opacity: 1;
     --rotate: 0;
