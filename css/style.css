@@ -1,7 +1,10 @@
 body{
-    background-color: aqua;
+    background-color: #fdf5e6;
 }
-h1{
-    color: black;
+header.header{
+    /* 木目調を意識した色の下線 */
+    border-bottom: 2px solid #e0d1b1;
 }
-
+header.header h1.logo img {
+    max-height: 50px;
+}

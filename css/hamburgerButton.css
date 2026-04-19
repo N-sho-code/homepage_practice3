@@ -19,12 +19,12 @@
     --rotate: 135deg;
     --translate: 0;
   }
-  
+
   span {
     display: block;
     width: 70%;
     height: 3px;
-    background-color: #000;
+    background-color: #4a3121;
     grid-area: 1/1/-1/-1;
     transition: opacity 0.4s ease, rotate 0.4s ease, translate 0.4s ease;
   }
