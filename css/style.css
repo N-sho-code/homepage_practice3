@@ -8,3 +8,14 @@ header.header{
 header.header h1.logo img {
     max-height: 50px;
 }
+header.header nav.menu a {
+    color: #00f;
+    text-decoration: none;
+}
+header.header nav.menu a:hover {
+    /* ホバー時に少し明るいクリーム色に */
+    background-color: #f5f0e1;
+}
+footer{
+    background-color: #e8d5b5;
+}
