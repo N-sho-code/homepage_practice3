@@ -30,12 +30,16 @@
     <!-- メイン -->
     <main>
         <h2>メニュー一覧</h2>
-
+        <div id="filter">
+            <label><input type="checkbox" value="Food" checked> Food</label>
+            <label><input type="checkbox" value="Drink" checked> Drink</label>
+            <label><input type="checkbox" value="Dessert" checked> Dessert</label><br>
+        </div>
         <!-- フード -->
         <section>
             <h3>フード</h3>
 
-            <div class="menu-item">
+            <div class="menu-item" data-category="Food">
                 <img src="image/menu/food1_ChatGPT.png" alt="料理1">
                 <div>
                     <h4>ハンバーグ定食</h4>
@@ -44,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="menu-item">
+            <div class="menu-item" data-category="Food">
                 <img src="image/menu/food2_ChatGPT.png" alt="料理2">
                 <div>
                     <h4>唐揚げ定食</h4>
@@ -53,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="menu-item">
+            <div class="menu-item" data-category="Food">
                 <img src="image/menu/food3_ChatGPT.png" alt="料理3">
                 <div>
                     <h4>カレーライス</h4>
@@ -67,7 +71,7 @@
         <section>
             <h3>ドリンク</h3>
 
-            <div class="menu-item">
+            <div class="menu-item" data-category="Drink">
                 <img src="image/menu/drink1_ChatGPT.png" alt="ドリンク1">
                 <div>
                     <h4>コーヒー</h4>
@@ -76,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="menu-item">
+            <div class="menu-item" data-category="Drink">
                 <img src="image/menu/drink2_ChatGPT.png" alt="ドリンク2">
                 <div>
                     <h4>カフェラテ</h4>
@@ -85,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="menu-item">
+            <div class="menu-item" data-category="Drink">
                 <img src="image/menu/drink3_ChatGPT.png" alt="ドリンク3">
                 <div>
                     <h4>オレンジジュース</h4>
@@ -94,6 +98,38 @@
                 </div>
             </div>
         </section>
+        <!-- デザート -->
+        <section>
+            <h3>デザート</h3>
+            <div class="menu-item" data-category="Dessert">
+                <img src="image/menu/dessert1_ChatGPT.png" alt="デザート1">
+                <div>
+                    <h4>パンケーキ</h4>
+                    <p>一口で心ほどける、ふわふわパンケーキ</p>
+                    <p class="price">¥980</p>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="Dessert">
+                <img src="image/menu/dessert2_ChatGPT.png" alt="デザート2">
+                <div>
+                    <h4>パフェ</h4>
+                    <p></p>
+                    <p class="price">¥780</p>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="Dessert">
+                <img src="image/menu/dessert3_ChatGPT.png" alt="デザート3">
+                <div>
+                    <h4>ショートケーキ</h4>
+                    <p></p>
+                    <p class="price">¥480</p>
+                </div>
+            </div>
+
+
+
 
     </main>
     <!-- メインここまで -->
