@@ -1,21 +1,35 @@
-body{
+body {
     background-color: #fdf5e6;
 }
-header.header{
+
+header.header {
     /* 木目調を意識した色の下線 */
     border-bottom: 2px solid #e0d1b1;
 }
+
 header.header h1.logo img {
     max-height: 50px;
 }
+
 header.header nav.menu a {
     color: #00f;
     text-decoration: none;
 }
+
 header.header nav.menu a:hover {
     /* ホバー時に少し明るいクリーム色に */
     background-color: #f5f0e1;
 }
-footer{
+
+footer {
     background-color: #e8d5b5;
+}
+/*水平に並べる*/
+.box {
+    display: flex;
+}
+
+.box div {
+    width: 90%;
+    margin: 5px;
 }
