@@ -1,8 +1,8 @@
 # homepage_practice3
 
 ## 概要
-本リポジトリは、Web開発の基礎学習を目的として作成したものです。  
-参考書の内容をベースに、HTML / CSS / JavaScript を用いた実装練習を行っています。  
+Web開発の基礎学習として制作したカフェのWebサイトです。  
+参考書をもとに、HTML / CSS / JavaScriptの実装を練習しています。    
 
 ## 学習内容
 ・HTML / CSS によるレイアウト作成  
