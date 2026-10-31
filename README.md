@@ -1,5 +1,5 @@
 # homepage_practice3
-
+　　
 ## 概要
 Web開発の基礎学習として制作したカフェのWebサイトです。  
 参考書をもとに、HTML / CSS / JavaScriptの実装を練習しています。  
